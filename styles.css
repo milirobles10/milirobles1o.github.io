@@ -1,0 +1,76 @@
+/* Reseteamos márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo del body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo del header */
+header {
+    background: #007bff; /* Color azul */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Estilo de la navegación */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilo del main */
+main {
+    padding: 20px;
+}
+
+/* Estilo de las secciones */
+section {
+    background: white; /* Fondo blanco para secciones */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+section h2 {
+    color: #007bff; /* Color azul para los títulos de sección */
+}
+
+/* Estilo de las imágenes */
+img {
+    max-width: 100%; /* Imagen responsiva */
+    height: auto; /* Mantener proporciones */
+}
+
+/* Estilo del footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff; /* Mismo color que el header */
+    color: white;
+}
